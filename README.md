@@ -2,6 +2,10 @@
 
 ### 
 
+## Project Video 
+
+https://drive.google.com/uc?id=1sD1OjdYvKoPuZMyPe_bBi0CqBb42OrkR&export=download
+
 ## Project Overview
 
 This repository houses both code and resources dedicated to performing sentiment analysis on Twitter data associated with the G20 summit. The primary objective of this project is to delve into the sentiment expressed in tweets, thereby acquiring valuable insights into public opinions and reactions concerning the G20 summit.

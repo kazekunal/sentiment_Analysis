@@ -19,17 +19,17 @@ We used a web scraping tool namely "Tweet Flash by Jonathan Larson hosted on api
 - **Dataset Format**: The dataset is provided in a CSV (Comma-Separated Values) file.
 - **File Name**: `G20TransformedData#3.csv`
 - **Data Fields**: The dataset includes the following fields:
-  - `UserName`: This field represents the Twitter username or handle of the user posted 
-  - `Text/caption`:
-  - `replies`
-  - `retweet`
-  - `quote`
-  - `likes`
-  - `url`
-  - `Timestamp`
-  - `Hashtag`
-  - `Tweet Merge`
-  - `Sentiments`
+  - `UserName`: This field represents the Twitter username or handle of the user who posted the tweet
+  - `Text/caption`: It contains the content of the tweet posted
+  - `replies`: The number of replies the tweet recieved from other users
+  - `retweet`: The count of times the tweet has been shared by other users on their profiles
+  - `quote`: This field tracks how many times the tweet has been quoted or reposted with added comments
+  - `likes`:It represents the number of likes the tweet has received from other users
+  - `url`: This field includes the URL or link of the associated tweet
+  - `Timestamp`: Records the date and time when the tweet was posted
+  - `Hashtag merge`: It captures any hashtags used in the tweet, which can provide insights into the topics and trends discussed.
+  - `Tweet Merge`: This field contains information of the merged tweets mentioned useful for organizing related tweets
+  - `Sentiments`: This field is used to record the sentiment analysis results, categorizing the tweet as positive, negative, or neutral based on its content.
 
 ## Data Collection
 
@@ -46,8 +46,4 @@ The project includes a user-friendly dashboard that compiles the sentiment analy
 
 ## Usage
 
-The dataset and sentiment analysis results are available for research and non-commercial purposes. Researchers, analysts, and developers can use this data to explore public sentiment, conduct further analysis, or create data-driven applications.
-
-## Citation
-
-If you use this dataset or sentiment analysis in your work, please consider citing it using the following format:
+The dataset and sentiment analysis results are available for research and non-commercial purposes. Researchers, analysts, and developers can use this data to explore public sentiment, conduct further analysis, or create data-driven applications. The dataset can be utilized to gauge public sentiment regarding economic policies, trade agreements, and financial stability discussed during the G20 Summit. This analysis aids in shaping and evaluating economic strategies and decisions.
